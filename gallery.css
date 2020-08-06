@@ -1,0 +1,43 @@
+.wrapper {
+  max-width: 960px;
+  width: 80%;
+  margin: 0 auto;
+  font-style: normal;
+  font-family: sans-serif;
+
+}
+h1 {
+  
+  text-align: justify;
+  font-weight: bold;
+  
+}
+  
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  }
+  
+.column {
+  flex-basis: 15%;
+  box-sizing: border-box;
+  padding: 8px;
+  }
+
+.box {
+  height: 160px;
+  background-color: rgb(169, 223, 241);
+  border-radius: 5%;
+  }
+
+
+.title {
+  background-color: rgb(238, 236, 236);
+  height: 40px;
+  padding-top: 15px;
+  text-align: center; 
+}
+p {
+  text-align: align;
+}
